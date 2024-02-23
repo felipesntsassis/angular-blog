@@ -1,11 +1,5 @@
-.container__footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-}
-
-.container__footer > h4 {
-  font-weight: 400;
+@media screen and (max-width: 992px) {
+  .container__footer {
+    padding: .5rem;
+  }
 }

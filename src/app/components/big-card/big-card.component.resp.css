@@ -1,14 +1,21 @@
 @media screen and (max-width: 992px) {
   .container__big-card {
-    margin: 0 1rem;
+    align-items: center;
+    margin: 0 0 1.25rem 0;
     max-width: 100%;
+    padding: .5rem;
   }
 
   .big-card__title > h1 {
     font-size: 1.25rem;
   }
 
+  .big-card__picture > img {
+    max-width: 100%;
+  }
+
   .big-card__description {
     margin-top: 1rem;
+    text-align: center;
   }
 }
