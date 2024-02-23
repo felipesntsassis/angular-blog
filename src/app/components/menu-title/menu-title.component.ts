@@ -6,7 +6,7 @@ import { BLOG_TITLE } from './../../shared/domains';
   templateUrl: './menu-title.component.html',
   styleUrls: [
     './menu-title.component.css',
-    './menu-title.component.responsive.css',
+    './menu-title.component.resp.css',
   ],
 })
 export class MenuTitleComponent {

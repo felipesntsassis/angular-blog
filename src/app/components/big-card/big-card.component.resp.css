@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) {
+  .container__big-card {
+    margin: 0 1rem;
+    max-width: 100%;
+  }
+
+  .big-card__title > h1 {
+    font-size: 1.25rem;
+  }
+
+  .big-card__description {
+    margin-top: 1rem;
+  }
+}

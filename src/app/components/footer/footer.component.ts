@@ -5,7 +5,10 @@ import { BLOG_TITLE } from './../../shared/domains';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  styleUrls: [
+    './footer.component.css',
+    './footer.component.resp.css'
+  ]
 })
 export class FooterComponent {
 
