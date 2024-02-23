@@ -28,8 +28,9 @@
   padding: .5rem;
 }
 
-.content__description > p {
+.content__description {
   margin-top: 1.25rem;
+  padding: 1.25rem;
   color: rgb(198, 197, 197);
 }
 

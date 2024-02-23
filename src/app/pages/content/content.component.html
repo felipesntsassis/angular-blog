@@ -9,8 +9,7 @@
     <h1>{{ contentTitle }}</h1>
     <hr>
   </div>
-  <div class="content__description">
-    <p>{{ contentDescription }}</p>
+  <div class="content__description" [innerHTML]="contentDescription">
   </div>
   <div class="content__navigation">
     <a class="content__button" [routerLink]="['']"><< VOLTAR</a>

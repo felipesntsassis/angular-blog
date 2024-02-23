@@ -11,12 +11,12 @@ import { Component, Input } from '@angular/core';
 export class BigCardComponent {
 
   @Input()
-  cardTitle: string = '';
+  cardTitle: string | null | undefined = '';
   @Input()
-  cardDescription: string = '';
+  cardDescription: string | null | undefined = '';
   @Input()
-  photoCover: string = '';
+  photoCover: string | null | undefined = '';
   @Input()
-  id: string = '0';
+  id: string | null | undefined = '0';
 
 }
