@@ -6,7 +6,10 @@ import { dataFake } from '../../data/data-fake';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: [
+    './content.component.css',
+    './content.component.resp.css'
+  ]
 })
 export class ContentComponent implements OnInit {
 

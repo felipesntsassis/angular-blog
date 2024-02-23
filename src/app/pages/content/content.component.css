@@ -4,11 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
-}
-
-.content__cover {
-  border: 1px solid gray;
+  margin-top: 1.25rem;
 }
 
 .content__cover > img {
@@ -19,11 +15,29 @@
   height: 300px;
 }
 
-.content__description {
-  margin-top: 15px;
+.content__description,
+.content__navigation {
+  margin-top: 1rem;
+}
+
+.content__navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
 }
 
 .content__description > p {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   color: rgb(198, 197, 197);
+}
+
+.content__button {
+  background-color: gray;
+  color: #FFFFFF;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  margin: .5rem 0;
+
 }

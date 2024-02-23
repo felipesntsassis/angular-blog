@@ -19,7 +19,7 @@ export const dataFake = [
   },
   {
     'id': '4',
-    'title': 'https://s2-techtudo.glbimg.com/XEjoJ9NZIfzAak4yzk_nxl-urtI=/0x0:2560x1600/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/o/o/RWzATXSaG30IWVkdLHwQ/x-men-capa.jpg',
+    'title': 'Novo filme dos X-Men está em pós-produção, afirma diretor',
     'description': 'Lorem Ipsum emet dolet.',
     'photoCover': 'https://images.thedirect.com/media/article_full/mcu-releases-disney_HwLGIrB.jpg'
   },
